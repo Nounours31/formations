@@ -1,3 +1,5 @@
+Voir https://github.com/NDXDeveloper/go-tutoriel-fr.git
+
 Settings VS code: (ctrl + shift + p | "open user setting as JSON")
     "go.goroot": "E:/bin/GoLang/1.26.3",
     "go.alternateTools": {
