@@ -1,0 +1,44 @@
+Settings VS code: (ctrl + shift + p | "open user setting as JSON")
+    "go.goroot": "E:/bin/GoLang/1.26.3",
+    "go.alternateTools": {
+        "go": "E:/bin/GoLang/1.26.3",
+    }    
+
+    + setting locaux
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "editor.formatOnSave": true,
+    "go.toolsEnvVars": {
+        "GO111MODULE": "on"
+    }
+
+
+Rechargez VS Code (Ctrl+Shift+P → "Developer: Reload Window")
+
+
+# Formater tous les fichiers Go du répertoire
+go fmt .
+# Formater avec goimports (organise aussi les imports)
+goimports -w .
+
+Commandes Go essentielles
+    Commande	Description	Exemple
+    go version
+    go env
+    go run	    Exécute un programme Go	go run main.go
+    go build	Compile un programme	go build main.go
+    go fmt	    Formate le code	go fmt .
+    go vet	    Vérifie le code	go vet .
+    go test	    Exécute les tests	go test .
+    go mod	    Gestion des modules	go mod init myproject
+    go get	    Télécharge des dépendances	go get github.com/gin-gonic/gin
+
+
+
+package main + func main = le point d'entree du .Exe
+
+
+
+
